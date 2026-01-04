@@ -1,0 +1,10 @@
+# Przykładowe wartości zmiennych dla tego projektu
+# Ten plik może być wersjonowany w repo jako szablon.
+# Skopiuj go do terraform.tfvars i uzupełnij własnymi danymi lokalnie.
+
+# Uzupełnij własnym ID projektu GCP
+project_id = "projekt-gcp-id"
+
+# Opcjonalnie możesz nadpisać wartości domyślne:
+# region = "europe-central2"
+# zone   = "europe-central2-a"
