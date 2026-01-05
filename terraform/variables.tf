@@ -14,3 +14,14 @@ variable "zone" {
   type        = string
   default     = "europe-central2-a"
 }
+
+variable "db_user" {
+  description = "Użytkownik bazy danych MariaDB dla aplikacji tfmaestro"
+  type        = string
+}
+
+variable "db_password" {
+  description = "Hasło użytkownika bazy danych MariaDB dla aplikacji tfmaestro"
+  type        = string
+  sensitive   = true
+}
